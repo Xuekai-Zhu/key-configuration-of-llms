@@ -39,5 +39,7 @@
 - Phi-2: The surprising power of small language models
 - Stable LM 2 1.6B Technical Report
 - MiniCPM: Unveiling the Potential of End-side Large Language Models
-- DeepSeek LLM Scaling Open-Source Language Models with Longtermism
-- Mistral 7B
+- [DeepSeek LLM Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954)
+- [Mistral 7B](https://arxiv.org/abs/2310.06825)
+- [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
+- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
