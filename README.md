@@ -6,8 +6,6 @@
 
 -----
 
-
-
 | Release Date | Model      | Affiliation                                 | Size            | Source Data Size (Tokens)              | Training Tokens                                              | Learning Rate    | Batch Size (tokens)     | Architecture      | Context Length | Vocabulary Size | Tokenizer                            | Precision                      | GPU Hours     | Infrastructure                   | Optimizer                                 | Training Layout                                    | Language          |
 | ------------ | ---------- | ------------------------------------------- | --------------- | -------------------------------------- | ------------------------------------------------------------ | ---------------- | ----------------------- | ----------------- | -------------- | --------------- | ------------------------------------ | ------------------------------ | ------------- | -------------------------------- | ----------------------------------------- | -------------------------------------------------- | ----------------- |
 | 2024/02      | StableLM 2 | Stability AI Language Team                  | 1.6B            | -                                      | 2T                                                           | 1e−3 (max)       | 8, 388, 608             | decoder-only      | 4096           | 100,352         | Arcade100k tokenizer                 | BF16/FP32 （mixed precision ） | 92k           | 512 NVIDIA A100 (40GB HBM2) GPUs | AdamW (0.9/0.95)                          | FlashAttention-2, ZeRO stage 1                     | multilingual      |
@@ -20,6 +18,8 @@
 | 2023/09      | Qwen       | Qwen Team, Alibaba Group                    | 1.8B / 7B / 14B | 3T                                     | 2.2T / 2.4T / 3.0T                                           | 3e-4             | ~ 4M                    | Decoder-only      | 2048           | 152K            | Qwen                                 | BF16                           | -             | -                                | AdamW                                     | Flash Attention, cosine learning rate schedule     | multilingual      |
 | 2023/09      | phi-1.5    | Microsoft                                   | 1.3B            | 30B                                    | 150B                                                         | 2e−4 (0.1 wd)    | 4,194,304(2048 * 2048)  | encoder-decoder   | 2048           | -               | codegen-mono                         | FP16                           | 192(8 days)   | 32xA100-40G                      | Adam                                      | ZeRO-2                                             | English           |
 | 2023/06      | phi-1      | Microsoft                                   | 1.3B            | 7B                                     | 50B                                                          | 1e-3 (0.1 wd)    | 2,097,152(1024*2048)    | encoder-decoder   | 2048           | -               | codegen-mono                         | FP16                           | 96 (4 days)   | 8 xA100                          | Adam                                      | Flash Attention                                    | English           |
+
+"-" indicates not mentioned in their technical reports.
 
 ----
 
