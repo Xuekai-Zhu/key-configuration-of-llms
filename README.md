@@ -2,11 +2,9 @@
 
 > Contributed by Xuekai Zhu, Kaiyan Zhang, [Jushi Kai](https://scholar.google.com/citations?user=W85K17gAAAAJ&hl=zh-CN)
 
-**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can join the LLMs party.**
+**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can support the LLMs party.**
 
 -----
-
-
 
 | Release Date | Model      | Affiliation                                 | Size            | Source Data Size (Tokens)              | Training Tokens                                              | Learning Rate    | Batch Size (tokens)     | Architecture      | Context Length | Vocabulary Size | Tokenizer                            | Precision                      | GPU Hours     | Infrastructure                   | Optimizer                                 | Training Layout                                    | Language          |
 | ------------ | ---------- | ------------------------------------------- | --------------- | -------------------------------------- | ------------------------------------------------------------ | ---------------- | ----------------------- | ----------------- | -------------- | --------------- | ------------------------------------ | ------------------------------ | ------------- | -------------------------------- | ----------------------------------------- | -------------------------------------------------- | ----------------- |
@@ -23,6 +21,8 @@
 | 2023/06      | phi-1      | Microsoft                                   | 1.3B            | 7B                                     | 50B                                                          | 1e-3 (0.1 wd)    | 2,097,152(1024*2048)    | encoder-decoder   | 2048           | -               | codegen-mono                         | FP16                           | 96 (4 days)   | 8 xA100                          | Adam                                      | Flash Attention                                    | English           |
 | 2023/02       | LLaMA         | Meta                      | 7B / 13B / 33B / 65B      | -        | 1.0T(7B, 13B), 1.4T(33B, 65B)     | 3e-4 (7B, 13B), 1.5e-4 (33B, 65B)     | 4M        | decoder-only      | 2048      | 32k     | SentencePiece (BPE)     | -        | 82k (7B)     | A100-80GB     | AdamW     | cosine lr-scheduler     | English       |
 
+"-" indicates not mentioned in their technical reports.
+
 ----
 
 **The figure below illustrates the combinations of model sizes and training tokens for LLMs.  We can see that most 2B models are pre-trained with approximately 2 trillion tokens.**
@@ -36,8 +36,8 @@
 - Gemma: Open Models Based on Gemini Research and Technology
 - Textbooks Are All You Need
 - Textbooks Are All You Need II: phi-1.5 technical report
-- **Phi-2: The surprising power of small language models**
-- **Stable LM 2 1.6B Technical Report**
-- [MiniCPM：**揭示端侧大语言模型的无限潜力](https://www.notion.so/MiniCPM-c805a17c5c8046398914e47f0542095a?pvs=21)
+- Phi-2: The surprising power of small language models
+- Stable LM 2 1.6B Technical Report
+- MiniCPM: Unveiling the Potential of End-side Large Language Models
 - DeepSeek LLM Scaling Open-Source Language Models with Longtermism
 - Mistral 7B
