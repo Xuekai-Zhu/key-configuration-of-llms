@@ -34,8 +34,8 @@
 - Gemma: Open Models Based on Gemini Research and Technology
 - Textbooks Are All You Need
 - Textbooks Are All You Need II: phi-1.5 technical report
-- **Phi-2: The surprising power of small language models**
-- **Stable LM 2 1.6B Technical Report**
-- [MiniCPM：**揭示端侧大语言模型的无限潜力](https://www.notion.so/MiniCPM-c805a17c5c8046398914e47f0542095a?pvs=21)
+- Phi-2: The surprising power of small language models
+- Stable LM 2 1.6B Technical Report
+- MiniCPM: Unveiling the Potential of End-side Large Language Models
 - DeepSeek LLM Scaling Open-Source Language Models with Longtermism
 - Mistral 7B
