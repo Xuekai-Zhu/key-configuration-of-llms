@@ -1,10 +1,10 @@
 # Key Resources and Configurations for Open Source Large Language Models (LLMs)
 
-![figure_1](./figure_1.webp)
-
 > Contributed by Xuekai Zhu, Kaiyan Zhang
 
-**We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can join the LLMs party.**
+**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can join the LLMs party.**
+
+-----
 
 
 
@@ -20,6 +20,14 @@
 | 2023/09      | Qwen       | Qwen Team, Alibaba Group                    | 1.8B / 7B / 14B | 3T                                     | 2.2T / 2.4T / 3.0T                                           | 3e-4             | ~ 4M                    | Decoder-only      | 2048           | 152K            | Qwen                                 | BF16                           | -             | -                                | AdamW                                     | Flash Attention, cosine learning rate schedule     | multilingual      |
 | 2023/09      | phi-1.5    | Microsoft                                   | 1.3B            | 30B                                    | 150B                                                         | 2e−4 (0.1 wd)    | 4,194,304(2048 * 2048)  | encoder-decoder   | 2048           | -               | codegen-mono                         | FP16                           | 192(8 days)   | 32xA100-40G                      | Adam                                      | ZeRO-2                                             | English           |
 | 2023/06      | phi-1      | Microsoft                                   | 1.3B            | 7B                                     | 50B                                                          | 1e-3 (0.1 wd)    | 2,097,152(1024*2048)    | encoder-decoder   | 2048           | -               | codegen-mono                         | FP16                           | 96 (4 days)   | 8 xA100                          | Adam                                      | Flash Attention                                    | English           |
+
+----
+
+**The figure below illustrates the combinations of model sizes and training tokens for LLMs.  We can see that most 2B models are pre-trained with approximately 2 trillion tokens.**
+
+
+
+![key_resource](./key_resource.png)
 
 ### **Reference**
 
