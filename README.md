@@ -1,8 +1,9 @@
 # Key Resources and Configurations for Open Source Large Language Models (LLMs)
 
-> Contributed by Xuekai Zhu, Kaiyan Zhang, [Jushi Kai](https://scholar.google.com/citations?user=W85K17gAAAAJ&hl=zh-CN)
+> Contributed by [Xuekai Zhu](https://xuekai-zhu.github.io/Xuekai-Zhu/), Kaiyan Zhang, [Jushi Kai](https://scholar.google.com/citations?user=W85K17gAAAAJ&hl=zh-CN)
 
-**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can support the LLMs party.**
+**We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can support the LLMs party.**
+**![figure_1](./figure_1.webp)**
 
 -----
 
