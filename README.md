@@ -2,7 +2,7 @@
 
 > Contributed by Xuekai Zhu, Kaiyan Zhang
 
-**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can join the LLMs party.**
+**![figure_1](./figure_1.webp)We present a comprehensive table outlining the key resources and configurations for Open Source Large Language Models (LLMs). We hope this table can help you quickly check whether your accessible resource can support the LLMs party.**
 
 -----
 
