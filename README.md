@@ -34,12 +34,12 @@
 
 ### **Reference**
 
-- Gemma: Open Models Based on Gemini Research and Technology
-- Textbooks Are All You Need
-- Textbooks Are All You Need II: phi-1.5 technical report
-- Phi-2: The surprising power of small language models
-- Stable LM 2 1.6B Technical Report
-- MiniCPM: Unveiling the Potential of End-side Large Language Models
+- [Gemma: Open Models Based on Gemini Research and Technology](https://blog.google/technology/developers/gemma-open-models/)
+- [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
+- [Textbooks Are All You Need II: phi-1.5 technical report](https://arxiv.org/abs/2309.05463)
+- [Phi-2: The surprising power of small language models](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
+- [Stable LM 2 1.6B Technical Report](https://arxiv.org/abs/2402.17834)
+- [MiniCPM: Unveiling the Potential of End-side Large Language Models](https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20)
 - [DeepSeek LLM Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954)
 - [Mistral 7B](https://arxiv.org/abs/2310.06825)
 - [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
