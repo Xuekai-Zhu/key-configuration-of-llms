@@ -1,6 +1,6 @@
 # Key Resources and Configurations for Open Source Large Language Models (LLMs)
 
-![](./DALL·E 2024-03-04 13.54.32 - Design an ultra-minimalist, wide cover image without any text for a GitHub repository, focusing on the essence of open-source language models. This de.webp)
+![figure_1](./figure_1.webp)
 
 > Contributed by Xuekai Zhu, Kaiyan Zhang
 
